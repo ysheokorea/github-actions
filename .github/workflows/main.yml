@@ -15,8 +15,8 @@ jobs:
       run: echo pwd
     - name: check disk
       run : echo df -h >> disk.txt
-    - name : Node execution
-      run : cat index.js
+    - name : GEN file
+      run : touch index.js
 
     
         
