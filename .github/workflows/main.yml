@@ -11,5 +11,7 @@ jobs:
     steps:
     - name: checkRoot
     - run: pwd
+    - name: checkRoot
+    - run: pwd
         
     
