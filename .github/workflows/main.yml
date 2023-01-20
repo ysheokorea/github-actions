@@ -1,0 +1,15 @@
+name: GithubActions Test
+
+on: 
+  push: 
+    branches : 
+    - main
+    
+jobs:
+  checkroot:
+    runs-on: ubuntu--latest
+    steps:
+    - name: checkRoot
+    - run: pwd
+        
+    
