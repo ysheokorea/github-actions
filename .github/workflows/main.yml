@@ -13,6 +13,8 @@ jobs:
       run: pwd
     - name: ls -al
       run : ls -al
+    - name: check disk
+      run : df -h
     
         
     
