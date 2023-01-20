@@ -18,7 +18,7 @@ jobs:
     - name: check disk
       run : df -h
     - name : Node execution
-      run : node index.js
+      run : cat index.js
     
         
     
