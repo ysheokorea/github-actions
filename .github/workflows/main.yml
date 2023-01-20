@@ -12,13 +12,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - name: checkRoot
-      run: pwd
-    - name: ls -al
-      run : ls -al
+      run: echo pwd
     - name: check disk
-      run : df -h
+      run : echo df -h >> disk.txt
     - name : Node execution
       run : cat index.js
+
     
         
     
